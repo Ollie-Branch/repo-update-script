@@ -16,5 +16,8 @@ do
 	echo $CURRENT_DIR
 	cd $CURRENT_DIR
 	git pull
+	if test -f "$PWD/build.sh"; then
+		./build.sh
+	fi
 	cd ..
 done
