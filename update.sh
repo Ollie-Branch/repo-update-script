@@ -11,8 +11,6 @@ echo current working directory = $SCRIPT_DIR
 CURRENT_FOLDER=$(echo $DIRS_TO_ITER | awk '{print $1}')
 CURRENT_DIR=1
 
-echo The first folder is "$CURRENT_FOLDER"
-
 for i in $DIRS_TO_ITER
 do
 	CURRENT_DIR=$i
