@@ -8,8 +8,7 @@ echo list of dirs to iterate = $DIRS_TO_ITER
 echo number of dirs to iterate = $NUM_DIRS_TO_ITER
 echo current working directory = $SCRIPT_DIR
 
-CURRENT_FOLDER=$(echo $DIRS_TO_ITER | awk '{print $1}')
-CURRENT_DIR=1
+CURRENT_DIR=$(echo $DIRS_TO_ITER | awk '{print $1}')
 
 for i in $DIRS_TO_ITER
 do
