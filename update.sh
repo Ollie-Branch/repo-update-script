@@ -18,5 +18,6 @@ do
 	CURRENT_DIR=$i
 	echo $CURRENT_DIR
 	cd $CURRENT_DIR
+	git pull
 	cd ..
 done
